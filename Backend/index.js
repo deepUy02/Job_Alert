@@ -19,8 +19,9 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin: [
-        'https://hire-talent.onrender.com'
+    origin:[
+        "https://job-alert-gz98.onrender.com"
+        
     ],
     credentials: true
 }
